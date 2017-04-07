@@ -1,3 +1,5 @@
+import io.gatling.sbt.GatlingPlugin
+
 name := """tutuk-performance"""
 
 version := "1.0"
@@ -6,6 +8,7 @@ scalaVersion := "2.11.7"
 
 retrieveManaged := true
 
+enablePlugins(GatlingPlugin)
 
 libraryDependencies ++= {
   val AkkaHttpVersion   = "2.4.7"
