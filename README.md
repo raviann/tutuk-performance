@@ -9,7 +9,9 @@ This measures the Gattling performance for tuktuk repo
 
 
 # Command to run the perf tests
-sbt 'testOnly com.tuktuk.TukTukApiLoadTest'
+1. git clone https://github.com/raviann/tutuk-performance.git
+2. cd tutuk-performance
+3. sbt 'testOnly com.tuktuk.TukTukApiLoadTest'
 
 The following just depitcs the stats presented by Gattling. Once run, the results will be published to html and the same can be seen below
 ![Performace tests run on laptop](/design/images/laptoprun.png?raw=true "laptop run")
