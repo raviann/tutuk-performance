@@ -22,7 +22,7 @@ libraryDependencies ++= {
     "org.mongodb.scala" %% "mongo-scala-driver" % "2.0.0",
     "org.slf4j" % "slf4j-simple" % "1.6.4",
     "io.gatling.highcharts" % "gatling-charts-highcharts" % "2.2.0-M3",
-    "io.gatling" % "gatling-test-framework" % "2.2.4"
+    "io.gatling" % "gatling-test-framework" % "2.2.0-M3"
   )
 }
 
